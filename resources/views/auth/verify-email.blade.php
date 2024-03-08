@@ -1,4 +1,4 @@
-<x-layout>
+<x-guest-layout>
     <div class="mb-4 text-gray-600">
         {{ __('Thanks for signing up!, Before getting started, could you verify your email address by clicking on the
 link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
@@ -17,7 +17,7 @@ link we just emailed to you? If you didn\'t receive the email, we will gladly se
             <div>
                 <button
                     type="submit"
-                    class="inline-flex px-4 py-2 bg-gray-800 text-white border border-transparent rounded-md uppercase
+                    class="inline-flex px-4 py-2 bg-gray-800 text-white border border-transparent rounded-md
                     hover:bg-gray-700 tracking-widest transition duration-150"
                 >
                     {{ __('Resend Verification Email') }}
@@ -34,4 +34,4 @@ link we just emailed to you? If you didn\'t receive the email, we will gladly se
             </button>
         </form>
     </div>
-</x-layout>
+</x-guest-layout>
